@@ -3,3 +3,5 @@ data/
 runs/
 *.pt
 train.log
+test_results.log
+supervise.log
