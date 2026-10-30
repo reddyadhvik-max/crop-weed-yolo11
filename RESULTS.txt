@@ -1,0 +1,9 @@
+Ultralytics 8.4.192 🚀 Python-3.12.15 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5050 Laptop GPU, 7708MiB)
+YOLO11x summary (fused): 190 layers, 56,829,334 parameters, 0 gradients, 194.8 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 2540.9±799.8 MB/s, size: 52.1 KB)
+                   all        130        194      0.856      0.831      0.896      0.595
+Speed: 0.6ms preprocess, 30.1ms inference, 0.0ms loss, 0.3ms postprocess per image
+test mAP50=0.896 mAP50-95=0.595 P=0.856 R=0.831 per-class AP50={'crop': np.float64(0.8663553280858222), 'weed': np.float64(0.9258716128296921)}
+image-level class match: 128/130 = 0.985
+UI detect(): 🌱 crop: 0   🌿 weed: 2
+ALL TESTS PASSED
